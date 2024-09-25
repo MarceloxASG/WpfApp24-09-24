@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.EliminarEmpleadoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="EliminarEmpleadoWindow" Height="223" Width="376">
+    <Grid>
+        <TextBlock Text="Eliminar Empleado" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" FontSize="16" FontWeight="Bold" TextDecorations="Underline" FontStyle="Italic"/>
+        <TextBlock Text="ID Empleado a eliminar:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,59,0,0"/>
+        <TextBox x:Name="txtIdEmpleado" IsReadOnly="True" HorizontalAlignment="Center" VerticalAlignment="Center" Width="98"/>
+        <Button Content="Eliminar" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,164,0,0" Click="btnEliminar_Click"/>
+    </Grid>
+</Window>
